@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  watpo-book:
+    container_name: watpo-book
+    build:
+      context: ./
+      dockerfile: dockerfile
+    ports:
+      - 8000:8000
